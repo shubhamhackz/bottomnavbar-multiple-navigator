@@ -53,19 +53,19 @@ class _HomePageState extends State<HomePage> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            title: Text('Home'),
+            label: 'Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.business),
-            title: Text('Business'),
+            label: 'Business',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.computer),
-            title: Text('Technology'),
+            label: 'Technology',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.book),
-            title: Text('Education'),
+            label: 'Education',
           ),
         ],
         currentIndex: _pageIndex,
